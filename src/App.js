@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './components/Hello'
 import Welcome from './components/Welcome'
+import Greet from './components/Greet'
 
 function App() {
   return (
     <div className="App">
-      <Hello />
+      { /* <Hello /> */}
+      <Greet />
       <Welcome />
     </div>
   );
