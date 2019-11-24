@@ -9,8 +9,14 @@ function App() {
   return (
     <div className="App">
       { /* <Hello /> */}
-      <Greet />
-      <Welcome />
+      <Greet name="Brijesh" age="21">
+        Description: Software Developer
+      </Greet>
+      <Greet name="XYZ" age="22" />
+      <Welcome name="Brijesh" age="22">
+        Description: Software Developer
+      </Welcome>
+      <Welcome name="XYZ" age="21" />
     </div>
   );
 }

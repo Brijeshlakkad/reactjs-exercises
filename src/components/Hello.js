@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const Hello = () => {
-  return <h1>Hello!</h1>;
+class Hello extends Component{
+  render(){
+    return (
+      React.createElement('div', null, React.createElement('h1', null, 'Hello'))
+    );
+  }
 }
-// export const Hello.. would be export named component
-
 export default Hello;
-
-// this is export default component
