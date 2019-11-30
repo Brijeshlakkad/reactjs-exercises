@@ -5,6 +5,7 @@ import ParentComponent from "./components/ParentComponent";
 import NameList from "./components/NameList";
 import Form from "./components/Form";
 import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/*<NameList/>*/}
       {/*<Form/>*/}
       <RefsDemo/>
+      {/*<FocusInput/>*/}
     </div>
   );
 }
