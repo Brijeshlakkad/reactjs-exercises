@@ -13,8 +13,8 @@ function App() {
       {/*<ParentComponent />*/}
       {/*<NameList/>*/}
       {/*<Form/>*/}
-      <RefsDemo/>
-      {/*<FocusInput/>*/}
+      {/*<RefsDemo/>*/}
+      <FocusInput/>
     </div>
   );
 }
