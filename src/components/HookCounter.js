@@ -1,13 +1,15 @@
 import React, {useState} from 'react';
 
-function HookCounter(){
+function HookCounter() {
     const [count, setCount] = useState(0)
-    // function clickHandler(){
-    //
-    // }
+
+    function clickHandler() {
+        setCount(prevCount => prevCount + 1)
+    }
+
     return (
         <div>
-            <button onClick={()=>{setCount(count + 1)}}>Clicked {count} times</button>
+            <button onClick={clickHandler}>Clicked {count} times</button>
         </div>
     );
 }
