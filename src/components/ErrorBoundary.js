@@ -13,6 +13,11 @@ class ErrorBoundary extends Component {
            hasError: true
        }
     }
+    componentDidCatch(error, errorInfo) {
+        console.log(error);
+        console.log(errorInfo);
+    }
+
     render() {
         if(this.state.hasError) {
             return (
